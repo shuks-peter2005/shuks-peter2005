@@ -1,0 +1,15 @@
+print('please input your first number')
+a = input()
+print('please input your second number')
+b = input()
+print('please input the operation ie:*')
+operand =input()
+number1 = int(a)
+number2 = int(b)
+
+def maths ():
+    if operand== '*':
+        print(number1*number2)
+    else:print('invalid input')
+                    
+maths()
